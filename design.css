@@ -1,9 +1,12 @@
 body {
   text-align: center;
+  background-image: url(1.png);
+  background-size: cover;
+  color: white;
 }
 
 a {
-  background-color: green;
+  background-color: #81ffd9;
   color: white;
   padding: 0.5rem;
   text-decoration: none;
@@ -12,7 +15,9 @@ a {
 
 a:hover {
   background-color: transparent;
-  color: green;
-  border: solid 5px green;
+  color: #81ffd9;
+  border: solid 5px #81ffd9;
   transition: all 0.5s;
+  transform: translateY(500px);
+  display: inline-block;
 }
