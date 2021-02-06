@@ -5,10 +5,14 @@ body {
 a {
   background-color: green;
   color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+  border-radius: 30px;
 }
 
 a:hover {
   background-color: transparent;
   color: green;
   border: solid 5px green;
+  transition: all 0.5s;
 }
