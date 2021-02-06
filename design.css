@@ -1,1 +1,14 @@
-h1{text-align: center;}
+body {
+  text-align: center;
+}
+
+a {
+  background-color: green;
+  color: white;
+}
+
+a:hover {
+  background-color: transparent;
+  color: green;
+  border: solid 5px green;
+}
