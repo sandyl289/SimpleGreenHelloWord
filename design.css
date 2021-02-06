@@ -18,6 +18,5 @@ a:hover {
   color: #81ffd9;
   border: solid 5px #81ffd9;
   transition: all 0.5s;
-  transform: translateY(500px);
   display: inline-block;
 }
